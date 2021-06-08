@@ -1,13 +1,13 @@
 # Word2vec in Pytorch
 
-> This repo has learnt a lot from [this repo](https://github.com/Adoni/word2vec_pytorch)
+> This repo has learnt a lot from [this repo](https://github.com/Adoni/word2vec_pytorch) and https://github.com/PengFoo/word2vec-pytorch
 
-This repo implements the **SkipGram model with negative sampling** of Word2vec by Mikolov.
+This repo implements the **SkipGram model with negative sampling** of Word2vec by Draco Xu.
 
-Tricks below are also implemented:
-- subsampling
-- negative sampling with pow weight decay
-- learning rate decay
+# Hebbian theory based Generator
+run 
+` python test_embedding.py `
+
 
 # Requirements
 - PyTorch >= 0.4.1
