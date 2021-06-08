@@ -3,17 +3,10 @@ from gensim.test.utils import datapath
 from pathlib import Path
 
 model = KeyedVectors.load_word2vec_format(Path.cwd() / 'model_test.txt', binary=False)
-input = '男生'
-print(input)
-output = model.most_similar(positive=input)
-print(output)
-print('----------------')
-print(output[0][0])
-
 
 def hb(input):
     a = 1
-    for i in range(10):
+    for i in range(20):
         print(input)
         output = model.most_similar(positive=input)
         print(output)
@@ -24,5 +17,8 @@ def hb(input):
         input = output[a][0]
 
 
+input = input("Please enter your input:\n ")
 hb(input)
+
+
 
