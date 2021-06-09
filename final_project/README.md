@@ -1,5 +1,5 @@
-## Code for Final Projects
+# Code for Final Projects
 
-# Two Parts:
+## Two Parts:
 1) Selectivity
 2) Hebbian Learning
