@@ -9,10 +9,3 @@ This repo implements the **SkipGram model with negative sampling** of Word2vec a
 run 
 `python godfather_net.py` 
 
-# Requirements
-- PyTorch >= 0.4.1
-- Gensim >= 3.6.0 (for testing only)
-
-
-# Reference
-[1] Mikolov T, Sutskever I, Chen K, et al. Distributed representations of words and phrases and their compositionality[C]//Advances in neural information processing systems. 2013: 3111-3119.
