@@ -1,7 +1,7 @@
 from gensim.models.keyedvectors import KeyedVectors
 from gensim.test.utils import datapath
 from pathlib import Path
-
+import random
 model = KeyedVectors.load_word2vec_format(Path.cwd() / 'model_test.txt', binary=False)
 
 def hb(input):
@@ -10,11 +10,14 @@ def hb(input):
         print(input)
         output = model.most_similar(positive=input)
         print(output)
-        if i < 6:
-            a = a + 1
+        if a > 5:
+            a = int(a/1.23 )+2
         else:
-            a = a - 1
+            a = int(a*1.35 + 1)
         input = output[a][0]
+
+#a = random.randint(0,9)
+
 
 
 input = input("Please enter your input:\n ")
