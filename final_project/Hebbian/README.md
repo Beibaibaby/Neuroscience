@@ -1,26 +1,17 @@
-# Word2vec in Pytorch
+# HB-Learning
 
 > This repo has learnt a lot from [this repo](https://github.com/Adoni/word2vec_pytorch) and https://github.com/PengFoo/word2vec-pytorch
 
-This repo implements the **SkipGram model with negative sampling** of Word2vec by Draco Xu.
+This repo implements the **SkipGram model with negative sampling** of Word2vec and **HB-learning** defined by Kaer Di and Draco Xu.
 
 # Hebbian theory based Generator
 run 
-` python test_embedding.py `
-
+`python godfather_net.py` 
 
 # Requirements
 - PyTorch >= 0.4.1
 - Gensim >= 3.6.0 (for testing only)
 
-# Fast run
-To quickly run the train model, just run 
-
-` python train.py `
-
- which uses a Chinese corpus to train the Word2vec model. There is another toy corpus in English you can use located in `data/trainset.txt`, which is actually a "Jane Eyre" novel.
-
-Issues and PRs are welcomed!
 
 # Reference
 [1] Mikolov T, Sutskever I, Chen K, et al. Distributed representations of words and phrases and their compositionality[C]//Advances in neural information processing systems. 2013: 3111-3119.
