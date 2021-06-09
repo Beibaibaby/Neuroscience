@@ -6,6 +6,12 @@ This repo implements the **SkipGram model with negative sampling** of Word2vec a
 
 # Hebbian theory based Generator
 ![image](https://user-images.githubusercontent.com/56213541/121285192-87cdc000-c910-11eb-9742-e1292758bcac.png)
-run 
+To train the model:
+`python train.py` 
+
+To see the association in Word2vec-ed senmantic space：
+`python test_embedding.py` 
+
+To get the final output of our model, run 
 `python godfather_net.py` 
 
